@@ -1,4 +1,5 @@
 import React from "react";
+import ReactDOM from 'react-dom';
 import "./Grid.css";
 import Box from "./Box";
 
@@ -23,7 +24,7 @@ class Grid extends React.Component{
 							col = {j}
 							selectBox ={this.props.selectBox}
 						/>				
-					)
+					);
 				}
 		}
 		
@@ -31,7 +32,7 @@ class Grid extends React.Component{
 		return(
 
 			<div className= "grid" style={{width: width}}>
-				{{rowsArr}}
+				{rowArr}
 				
 			</div>
 		)
