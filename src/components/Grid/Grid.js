@@ -6,7 +6,7 @@ import Box from "./Box";
 
 class Grid extends React.Component{
 	render(){
-			const width = this.props.cols * 14;
+			const width = this.props.cols * 14.26;
 			let rowArr = [];
 				
 			let boxClass = "";
